@@ -1,0 +1,70 @@
+body {
+	
+	box-sizing: border-box; 
+}
+.page {
+	width: 80%;
+	/*height: 700px;*/
+	outline: 10px solid green;
+	margin: 0 auto;
+}
+	.wrapper-main {
+		min-width: 300px;
+		min-height: 50px;
+		height: 100px;
+		width: 500px;
+		
+		outline: 1px solid black;
+		margin: 0 auto;
+		padding: 30px 35px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+		.container1 {
+			outline: 1px dashed blue;
+			flex-basis: 55%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		
+		}
+			.train-time {
+				width: 100%;	outline: 1px dashed red;
+				max-width: 300px;
+				width: 100%;
+				display: flex; 
+				justify-content: space-around;
+				padding-bottom: 20px;
+			}
+				.arrow::before, .run-time {  line-height: 34px;  }
+				.wrapper-main .time {
+					font-size: 30px;
+				}
+				.arrow::before {
+					content: ">"; line-height: 34px;
+				}
+
+			.train-info-row {
+				outline: 1px dashed green;
+			}
+			/*-<a>-rating-popup-trigger-*/
+				a .rating-row {
+					outline: 1px dashed green;
+				}
+		.container2 {
+			outline: 1px dashed blue;
+			flex-basis: 45%;
+			display: flex;
+		}
+			.wrapper-price {
+				flex-basis: 40%;	outline: 3px dashed red; margin: 0 15px 0 15px;
+			}
+			.wrapper-places {
+				flex-basis: 60%;	outline: 1px dashed red;
+			}
+				.places {
+					text-align: center; outline: 1px dashed red; padding: 15px 5px; background: grey; 
+				}
+		
